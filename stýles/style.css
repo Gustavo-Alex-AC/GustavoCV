@@ -211,3 +211,15 @@ header:last-child {
 .socials:last-child {
   margin-right: 0;
 }
+
+.educacao-item,
+.experiencia-item,
+.formacao-item {
+  margin-right: 100px;
+}
+
+.educacao-item:last-child,
+.experiencia-item:last-child,
+.formacao-item:last-child {
+  margin-right: 0;
+}
