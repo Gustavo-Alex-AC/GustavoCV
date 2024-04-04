@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  padding: 4rem 9rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.color-grey {
+  color: #7777;
+}
+
+.profile--margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.profile-image {
+  width: 32%;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #000;
+}
+
+.socials a:active {
+  color: #7777;
+}
+
+.socials a:visited {
+  color: #333;
+}
+
+.socials a:hover {
+  color: #777;
+}
+
+.socials-links {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  padding: 4rem 9rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.list-link {
+  list-style: none;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.list-link li {
+  margin: 3rem;
+}
+
+.link {
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+.link:link,
+.link:active,
+.link:visited {
+  color: #333;
+}
+
+.link:hover {
+  color: #777;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #777;
+  width: 2rem;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* educação / experiencia / formação */
+.educacao-section,
+.experiencia-section,
+.formacao-section {
+  padding: 4rem;
+}
+
+.educacao-section h1,
+.experiencia-section h1,
+.formacao-section h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+/* .educacao-container {
+  margin-top: 5rem;
+} */
+
+.educacao-item,
+.experiencia-item,
+.formacao-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 6rem;
+
+  /* padding: 8rem 4rem; */
+}
+
+.educacao-item img,
+.experiencia-item img,
+.formcao-item img {
+  width: 32%;
+  border-radius: 8px;
+}
+
+.educacao-item-text,
+.experiencia-item-text,
+.formacao-item-text {
+  width: 32%;
+  height: 1;
+}
+
+.educacao-item-text p,
+.experiencia-item-text p,
+.formacao-item-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* footer */
+
+footer {
+  padding: 4rem 9rem;
+  margin-bottom: 3rem;
+}
+
+/* for safari browseer */
+header {
+  margin-right: 50px;
+}
+header:last-child {
+  margin-right: 0;
+}
+
+.socials {
+  margin-right: 50px;
+}
+.socials:last-child {
+  margin-right: 0;
+}
